@@ -28,7 +28,6 @@ Roman is the calendar system the Roman Empire used.  This was a system where the
     console.log(dateCalc(-2014, 3, 14))
     console.log(dateCalc(-2014, 3, 14, 'Julian'))
     console.log(dateCalc(2014, 3, 14, 'Julian'))
-}
 ```
 prints out:
 ```
