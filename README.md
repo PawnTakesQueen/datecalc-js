@@ -5,7 +5,7 @@ datecalc is created by Vi Grey (https://vigrey.com) <vi@vigrey.com> and is licen
 
 Javascript module to calculate the day of the week of any date
 
-####Using the Module
+#### Using the Module
 
 To calculate the day of the week for any date, use *dateCalc(y, m, d, t)* where y is the full year (a negative integer for BC years), m is the month number, d is the day number, and type is the calendar type.  The calendar types you have to chose from are:
 * English
@@ -20,7 +20,7 @@ English is the calendar system the English speaking western countries are using.
 
 Roman is the calendar system the Roman Empire used.  This was a system where the calendar was under the Julian until 1582, when it switched to the Gregorian Calendar, skipping October 5th and going straight to October 15th to offset for the differences in the calendar systems on how they incorporated leap years.
 
-####Example Uses
+#### Example Uses
 ```
     console.log(dateCalc(2014, 3, 14))
     console.log(dateCalc(2014, 3, 14, 'English'))
